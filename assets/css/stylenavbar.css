@@ -8,10 +8,11 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #FEFEFE;
+  background-color: #78a08f5e;
   overflow-x: hidden;
   padding-top: 20px;
 }
+
 ul {
   list-style: none;
   padding-inline-start: 0px;
@@ -21,19 +22,18 @@ ul {
   display: block;
   text-decoration: none;
   padding: 10px;
-  background-color: #FEFEFE;
-  color: rgb(114, 114, 114);
+  color: #333a43;
 }
-.emphasizemenu a {
+/* .emphasizemenu a {
   display: block;
   text-decoration: none;
   padding: 10px;
-  background-color: rgb(230, 230, 230);
-  color: rgb(114, 114, 114);
-}
+  background-color: #78A08F;
+  color: #241827;
+} */
 .mainmenu a:hover {
-  background-color: rgb(230, 230, 230);
-  color: rgb(114, 114, 114);
+  background-color: #78a08f5e;
+  /* color: #241827; */
 }
 
 /* -- Footer -- */

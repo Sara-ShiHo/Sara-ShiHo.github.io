@@ -8,21 +8,62 @@ body {
 
 /* -- Main content -- */
 .main {
-  margin-left: 100px; /* Same as the width of the sidenav */
+  margin-left: 100px;
   font-size: 17px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-  color: rgb(114, 114, 114);
-}
-.main#main {
-  max-width: 60%;
+  color: #333a43;
+  
+  /* Center horizontally */
+  text-align: center;
+  /* Center vertically */
+  top: 50%;
+  margin-top: 50px;
 }
 
+/* -- dynamic underline link -- */
+
+a.ficon {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+a.ficon:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: #c24962  ;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a.ficon:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
 
 /* -- images -- */
+
+.ficon {
+  text-decoration: none;
+  padding-top: 20px;
+  padding-right:10px;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+i {
+  color: #333a43;
+}
+
 img.regimg {
   max-width: 300px;
-  width: 40%;
+  width: 200px;
+  border-radius: 50%;
+  padding: 10px;
 }
+
 img.rightimg {
   width: 400px;
   max-width: 30%;
