@@ -21,12 +21,12 @@ body {
 
 /* -- dynamic underline link -- */
 
-a.ficon {
+a {
   text-decoration: none;
   display: inline-block;
   position: relative;
 }
-a.ficon:after {    
+a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -38,7 +38,7 @@ a.ficon:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a.ficon:hover:after { 
+a:hover:after { 
   width: 100%; 
   left: 0; 
 }

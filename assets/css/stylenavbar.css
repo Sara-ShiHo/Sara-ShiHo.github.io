@@ -8,7 +8,8 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #78a08f5e;
+  border-right: 2px solid #c2496169;
+  /* background-color: #78a08f5e; */
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -18,12 +19,16 @@ ul {
   padding-inline-start: 0px;
   margin: 0px;
 }
+ul.mainmenu{
+  text-align: center;
+}
 .mainmenu a {
   display: block;
   text-decoration: none;
   padding: 10px;
   color: #333a43;
 }
+
 /* .emphasizemenu a {
   display: block;
   text-decoration: none;
@@ -32,7 +37,7 @@ ul {
   color: #241827;
 } */
 .mainmenu a:hover {
-  background-color: #78a08f5e;
+  /* background-color: #78a08f5e; */
   /* color: #241827; */
 }
 
