@@ -40,11 +40,3 @@ ul.mainmenu{
   font-size: 12px;
   color: rgb(114, 114, 114);
 }
-
-/* -- Do not show open and close buttons on regular screen -- */
-.openbtn {
-  display:none;
-}
-.closebtn {
-  display:none;
-}
