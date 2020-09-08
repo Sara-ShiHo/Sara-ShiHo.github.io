@@ -21,6 +21,7 @@ ul {
 }
 ul.mainmenu{
   text-align: center;
+  /* text-transform: uppercase; */
 }
 .mainmenu a {
   display: block;

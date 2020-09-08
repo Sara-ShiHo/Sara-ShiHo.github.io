@@ -1,2 +1,1 @@
-# site-draft
-Draft for personal website
+# Personal website
